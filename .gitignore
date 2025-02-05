@@ -1,0 +1,108 @@
+# Ignorar diretórios de compilação e build
+**/bin/
+**/obj/
+**/build/
+**/out/
+
+# Ignorar arquivos de configuração específicos do usuário
+*.user
+*.suo
+*.sln.docstates
+
+# Ignorar arquivos de configuração do VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Ignorar arquivos de log
+*.log
+**/*.log
+logs/
+
+# Ignorar arquivos de configurações pessoais do Rider, Visual Studio, etc.
+**/.idea/
+**/.vs/
+
+# Ignorar pacotes NuGet
+**/*.nupkg
+**/[Pp]ackages/
+**/[Nn]uGet/
+
+# Ignorar arquivos de perfil de desempenho
+**/*.psess
+**/*.vsp
+**/*.vspx
+**/*.sap
+
+# Arquivos temporários
+**/*.tmp
+**/*.bak
+**/*.swp
+**/*~
+**/.temp/
+
+# Ignorar arquivos de ambiente
+**/*.env
+**/*.local
+**/.env
+
+# Ignorar dependências de desenvolvimento
+**/node_modules/
+**/bower_components/
+
+# Ignorar arquivos de sessão
+**/*.pid
+**/*.seed
+**/*.pid.lock
+
+# Ignorar backups
+**/*.bkp
+**/*.backup
+
+# Ignorar arquivos de cache
+**/.cache/
+**/*.cache
+
+# Ignorar arquivos de configuração do Rider, MonoDevelop, etc.
+**/*.userprefs
+**/*.usertasks
+**/*.pidb
+**/*.booproj
+
+# Ignorar arquivos de publicação da web
+**/[Pp]ublish/
+**/*.Publish.xml
+**/*.azurePubxml
+
+# Arquivos de configuração de ambiente
+**/*.publishsettings
+**/orleans.codegen.cs
+
+# Ignorar dados de teste do Visual Studio
+**/*.TestSettings
+
+# Ignorar resultados de testes
+**/[Tt]est[Rr]esult*/
+**/[Bb]uild[Ll]og.*
+
+# Ignorar arquivos de implantação
+**/*.deploy
+**/*.deployment
+
+# Ignorar mapeamento de código
+**/*.dbmdl
+**/*.jfm
+
+# Ignorar configurações de estilo de código
+**/.editorconfig
+
+# Ignorar arquivos de configuração do Docker
+**/.dockerfile
+**/*.dockerfile
+**/.dockerignore
+
+# Ignorar arquivos de backup do sistema operacional
+**/.DS_Store
+**/Thumbs.db
