@@ -18,8 +18,8 @@ namespace vstore.ProductApi.Models.Configuration;
             builder.Property(p => p.Price).HasPrecision(12,2).IsRequired();
             builder.Property(p => p.ImageUrl).HasMaxLength(150).IsRequired();
             builder.Property(p => p.Stock).IsRequired();
-            builder.HasOne(p => p.Category).WithMany(c => c.Products)
-            .HasForeignKey(p => p.CategoryId)
-            .OnDelete(DeleteBehavior.Cascade);
+            // builder.HasOne(p => p.Category).WithMany(c => c.Products)
+            // .HasForeignKey(p => p.CategoryId)
+            // .OnDelete(DeleteBehavior.Cascade);
         }
 }
